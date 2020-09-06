@@ -6,7 +6,7 @@ print("We'll ping some servers to initiate the speed boost. This may take a few 
 a = True
 while a:
     try:
-        print("Pinging Sites: " + len(text))
+        print("Pinging Sites: " + str(len(text)))
         myfile.seek(len(text))
         text = myfile.read()
         myfile.write(text)
